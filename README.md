@@ -30,19 +30,19 @@
 
 ## Espectativas para o projeto
 
->  Sinto-me motivado com o projeto, estou entrando definitivamente nesse ramo
+>  _Sinto-me motivado com o projeto, estou entrando definitivamente nesse ramo_
 >  
-> que tanto se fala ser o futuro, hoje to vendo o porque de falarem isso, eu
+> _que tanto se fala ser o futuro, hoje to vendo o porque de falarem isso, eu_
 > 
-> falava, mas de boca pra fora pois não tinha noção no quão enorme é.
+> _falava, mas de boca pra fora pois não tinha noção no quão enorme é._
 > 
->  Também devo ressaltar que agora eu entendo o motivo de ter tantos aplica-
+>  _Também devo ressaltar que agora eu entendo o motivo de ter tantos aplica-_
 >  
-> tivos e sites brasileiros e pouca mão de obra qualificada, porque quem faz
+> _tivos e sites brasileiros e pouca mão de obra qualificada, porque quem faz_
 > 
-> parte do ramo da programação, tem vontade de fazer acontecer.Vontade de 
+> _parte do ramo da programação, tem vontade de fazer acontecer.Vontade de_ 
 > 
-> expor suas criações.
+> _expor suas criações._
 
 - - -
 
