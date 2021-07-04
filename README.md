@@ -4,7 +4,7 @@
 
 > [LinkedIN](https://www.linkedin.com/in/eduardo-domingues-vieira-rojas-b89756216/)
 > 
-> [Instagram pessoal](https://www.instagram.com/duh_rojas/)
+> [Instagram pessoal](https://www.instagram.com/duh_rojas/) 
 > 
 > [Instagram de memes](https://www.instagram.com/gato_louco_memes/)
 
