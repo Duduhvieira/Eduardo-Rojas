@@ -30,13 +30,13 @@
 
 ## Espectativas para o projeto
 
->  _Sinto-me motivado com o projeto, espero aprender muito e virar
+>  _Sinto-me motivado com o projeto, espero aprender muito e virar_
 > 
-> um profissional de programação front-end até o fim dele, depois
+> _um profissional de programação front-end até o fim dele, depois_
 > 
-> continuar estudando, vendo o que o mercado precisa e ir me atua-
+> _continuar estudando, vendo o que o mercado precisa e ir me atua-_
 > 
-> lizando.
+> _lizando._
 
 - - -
 
