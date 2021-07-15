@@ -6,30 +6,33 @@
 
     <title>exercicio-aula-06</title>
 </head>
+<body>
+    
+ <form method="get">
 <fieldset>
     <legend>Dados pessoais</legend>
     <label>
         Nome
-        <input type="text">
+        <input type="text" name="nome" required>
     </label>
     <label>
         Sobrenome
-        <input type="text">
+        <input type="text" name="Sobrenome" required>
     </label>
     <label>
         Data de nascimento
-        <input type="date" name="nascimento">
+        <input type="date" name="nascimento" required>
     </label>
     <fieldset>
         <legend>Sexo</legend>
         <label>
-            <input type="radio">Masculino
+            <input type="radio" name="sexo" id=radio-1 value="m" checked>Masculino
         </label>
         <label>
-            <input type="radio">Feminino
+            <input type="radio" name="sexo" id=radio-2 value="f">Feminino
         </label>
         <label>
-            <input type="radio">Lgbt
+            <input type="radio" name="sexo"id=radio-3 value="l">Lgbt
         </label>
     </fieldset>
 
@@ -37,10 +40,10 @@
 <fieldset>
     <legend>Dados de contato</legend>
     <label>
-        Telefone <input type="tel">
+        Telefone <input type="tel" name="telefone" required>
     </label>
     <label>
-        E-mail <input type="email">
+        E-mail <input type="email" name="E-mail" required>
     </label>
 
 </fieldset>
@@ -57,13 +60,14 @@
             <option value="Ensino Técnico Completo">Ensino Técnico Completo</option>
             <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
             <option value="Ensino Superior Completo">Ensino Superior Completo</option>
-            <option value="" selected>Selecione A Escolaridade</option>
+            <option value="" selected disabled>Selecione A Escolaridade</option>
     </label>
     </select>
 
 </fieldset>
+</form>
 
-<body>
+
 
 </body>
 
