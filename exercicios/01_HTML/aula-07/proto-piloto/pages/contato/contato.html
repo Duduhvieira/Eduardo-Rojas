@@ -4,31 +4,73 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>contato</title>
+    <title>Cadastre-se</title>
+    <link rel="icon" href="../../assets/pg-home/logo.jpeg" eg type="img/jpeg" sizes="16x16">
+    <style>
+        .fundo {
+            background-image: linear-gradient(90deg, black, rgb(42, 95, 42));
+            height: 100%;
+            color: rgb(122, 109, 109);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="../inicial/inicial.html"> pagina inicial</a>
-            <a href="../sobre/sobre.html">Sobre nós</a>
-            <a href="../contato/contato.html">Contato</a>
-        </nav>
-    </header>
-    <fieldset>
-        <legend>
-            <h2>CONTATOS</h2>
-        </legend>
-        Telefone - (53)98140-3690 <br>
-        Email - Duhrojas@gmail.com <br>
-    </fieldset>
-    <footer>
-        <p>
-            todos os direitos reservados a tecno-start &#169;
-            <br>
-            <a href="https://policies.google.com/privacy?hl=pt-BR">termos de privacidade</a>
-        </p>
-    </footer>
+    <div class="fundo">
+        <header>
+            <p>
+            <h1><a name="inicio"> The defenders of the moon island: the legend of Odin's treasure</a></h1>
+            </p>
+            <img src="../../assets/pg-home/logo.jpeg" alt="logo" width="320" height="300">
+            <nav>
+                <a href="../inicial/inicial.html"> pagina inicial</a>
+                <a href="../sobre/sobre.html">Sobre nós</a>
+                Cadastre-se
+            </nav>
+
+        </header>
+        <form method="POST">
+            <fieldset>
+                <legend>
+                    <h2>Dados pessoais</h2>
+                </legend>
+                <label>Nome do personagem: <br>
+                    <input type="text" name="personagem" required>
+                </label> <br>
+                <label>Nome de usuário: <br>
+                    <input type="text" name="usuário" required>
+                </label> <br>
+                <label>senha: <br>
+                    <input type="password" name="senha" minlength="8" required></label> <br>
+                <label>Email: <br>
+                    <input type="email" name="email" required></label> <br>
+                <label>
+                    Selecione seu personagem: <br>
+                    <select name="selecioneseupernagem" required>
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="0">Druida</option>
+                        <option value="1">Guerreiro</option>
+                        <option value="2">Mago</option>
+                    </select>
+                </label>
+            </fieldset>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="limpar">
+            <a href="../sobre/sobre.html#classes">Não conseguiu escolher? veja as
+            classes do jogo</a>
+        </form>
+
+        <footer>
+            <p>
+                todos os direitos reservados a equipe El Gato loco &#169; <br>
+                <img src="../../util/gato louco.png" alt="gato">
+                <br>
+                <a href="https://policies.google.com/privacy?hl=pt-BR">termos de privacidade</a>
+            </p>
+        </footer>
+    </div>
 </body>
 
 </html>
