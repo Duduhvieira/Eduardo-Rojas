@@ -6,15 +6,7 @@
 
     <title>Cadastre-se</title>
     <link rel="icon" href="../../assets/pg-home/logo.jpeg" eg type="img/jpeg" sizes="16x16">
-    <style>
-        .fundo {
-            background-image: linear-gradient(90deg, black, rgb(42, 95, 42));
-            height: 100%;
-            color: rgb(122, 109, 109);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./cadastro.css" media="screen">  
 </head>
 
 <body>
@@ -26,7 +18,7 @@
             <img src="../../assets/pg-home/logo.jpeg" alt="logo" width="320" height="300">
             <nav>
                 <a href="../inicial/inicial.html"> pagina inicial</a>
-                <a href="../sobre/sobre.html">Sobre nós</a>
+                <a href="../sobre/sobre.html">Sobre</a>
                 Cadastre-se
             </nav>
 
@@ -36,35 +28,33 @@
                 <legend>
                     <h2>Dados pessoais</h2>
                 </legend>
-                <label>Nome do personagem: <br>
-                    <input type="text" name="personagem" required>
-                </label> <br>
-                <label>Nome de usuário: <br>
-                    <input type="text" name="usuário" required>
-                </label> <br>
-                <label>senha: <br>
-                    <input type="password" name="senha" minlength="8" required></label> <br>
-                <label>Email: <br>
-                    <input type="email" name="email" required></label> <br>
-                <label>
-                    Selecione seu personagem: <br>
-                    <select name="selecioneseupernagem" required>
+                <label for="personagem">Nome do personagem:</label> <br>
+                    <input type="text" name="personagem" id="personagem" required>
+                 <br>
+                <label for="usuario">Nome de usuário:</label> <br>
+                    <input type="text" name="usuario" required><br>
+                 
+                <label for="senha">Senha:</label> <br>
+                    <input type="password" name="senha" id="senha" minlength="8" required> <br>
+                <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email" required> <br>
+                <label for="selecione">Selecione seu personagem:</label> <br>
+                    <select name="selecioneseupernagem" id="selecione" required>
                         <option value="" selected disabled>Selecione</option>
-                        <option value="0">Druida</option>
-                        <option value="1">Guerreiro</option>
-                        <option value="2">Mago</option>
+                        <option value="druida">Druida</option>
+                        <option value="guerreiro">Guerreiro</option>
+                        <option value="mago">Mago</option>
                     </select>
-                </label>
+                
             </fieldset>
             <input type="submit" value="Cadastrar">
-            <input type="reset" value="limpar">
-            <a href="../sobre/sobre.html#classes">Não conseguiu escolher? veja as
-            classes do jogo</a>
+            <input type="reset" value="limpar">            
         </form>
-
+        <a href="../sobre/sobre.html#classes">Não conseguiu escolher? veja as
+            classes do jogo</a>
         <footer>
             <p>
-                todos os direitos reservados a equipe El Gato loco &#169; <br>
+                Todos os direitos reservados a equipe El Gato loco &#169; <br>
                 <img src="../../util/gato louco.png" alt="gato">
                 <br>
                 <a href="https://policies.google.com/privacy?hl=pt-BR">termos de privacidade</a>
