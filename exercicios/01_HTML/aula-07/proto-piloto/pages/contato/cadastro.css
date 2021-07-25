@@ -4,4 +4,10 @@
     color: rgb(122, 109, 109);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: 0px;
+}
+
+#cabec {
+    justify-content: space-around;
+    text-align: left;
 }

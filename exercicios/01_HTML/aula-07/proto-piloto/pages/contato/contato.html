@@ -6,22 +6,23 @@
 
     <title>Cadastre-se</title>
     <link rel="icon" href="../../assets/pg-home/logo.jpeg" eg type="img/jpeg" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="./cadastro.css" media="screen">  
+    <link rel="stylesheet" type="text/css" href="./cadastro.css" media="screen">
 </head>
 
-<body>
-    <div class="fundo">
+<body class="fundo">
+    <div>
         <header>
+
+            <div id="cabec">
+                <nav>
+                    <a href="../inicial/inicial.html" style="color: darkorange;"> pagina inicial</a>
+                    <a href="../sobre/sobre.html">Sobre</a> Cadastre-se
+                </nav>
+            </div>
             <p>
-            <h1><a name="inicio"> The defenders of the moon island: the legend of Odin's treasure</a></h1>
+                <h1><a name="inicio"> The defenders of the moon island: the legend of Odin's treasure</a></h1>
             </p>
             <img src="../../assets/pg-home/logo.jpeg" alt="logo" width="320" height="300">
-            <nav>
-                <a href="../inicial/inicial.html" style="color: darkorange;"> pagina inicial</a>
-                <a href="../sobre/sobre.html">Sobre</a>
-                Cadastre-se
-            </nav>
-
         </header>
         <form method="POST">
             <fieldset>
@@ -29,26 +30,26 @@
                     <h2>Dados pessoais</h2>
                 </legend>
                 <label for="personagem">Nome do personagem:</label> <br>
-                    <input type="text" name="personagem" id="personagem" required>
-                 <br>
+                <input type="text" name="personagem" id="personagem" required>
+                <br>
                 <label for="usuario">Nome de usuário:</label> <br>
-                    <input type="text" name="usuario" required><br>
-                 
+                <input type="text" name="usuario" required><br>
+
                 <label for="senha">Senha:</label> <br>
-                    <input type="password" name="senha" id="senha" minlength="8" required> <br>
+                <input type="password" name="senha" id="senha" minlength="8" required> <br>
                 <label for="email">Email:</label> <br>
-                    <input type="email" name="email" id="email" required> <br>
+                <input type="email" name="email" id="email" required> <br>
                 <label for="selecione">Selecione seu personagem:</label> <br>
-                    <select name="selecioneseupernagem" id="selecione" required>
+                <select name="selecioneseupernagem" id="selecione" required>
                         <option value="" selected disabled>Selecione</option>
                         <option value="druida">Druida</option>
                         <option value="guerreiro">Guerreiro</option>
                         <option value="mago">Mago</option>
                     </select>
-                
+
             </fieldset>
             <input type="submit" value="Cadastrar">
-            <input type="reset" value="limpar">            
+            <input type="reset" value="limpar">
         </form>
         <a href="../sobre/sobre.html#classes">Não conseguiu escolher? veja as
             classes do jogo</a>
