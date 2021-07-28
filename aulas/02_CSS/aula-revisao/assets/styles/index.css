@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    width: 120vh;
+}
+
+header {
+    width: 100%;
+    background-color: brown;
+    position: fixed;
+    height: 100px;
+}
+
+.container {
+    background-color: chocolate;
+    max-width: 1200px;
+    display: inline-block;
+}
+
+header .container img {
+    height: 100px;
+    float: left;
+}
+
+header .container nav {
+    display: inline-block;
+}
+
+.menu-superior {
+    margin-left: 3em;
+    float: right;
+}
